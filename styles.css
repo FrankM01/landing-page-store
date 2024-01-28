@@ -130,6 +130,9 @@ a{
     box-shadow: 0 1px #dfe5c8;
     transform: translateY(3px);
 }
+.push-button-3d:hover {
+    color: #311d1d;
+}
 .header img{
     padding: 20px;
     border-radius: 50px;
@@ -159,6 +162,11 @@ a{
 .boxes .box {
     text-align: center;
 }
+.boxes .box p{
+    font-size: 20px;
+    color: #dd4732;
+    padding: 5px;
+}
 
 
 
@@ -184,14 +192,21 @@ a{
 .contact-wrapper .contact-form{
     
     text-align: center;
+    flex: 2;
 }
 .contact-wrapper .contact-info{
-    flex: 1;
+    flex: 3;
     background-color: #fff;
     margin: 20px;
     
 }
 
+
+.contact-wrapper .contact-form h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #d63031;
+}
 
 .contact-wrapper form p {
     margin: 0;
@@ -224,6 +239,11 @@ a{
     transition: background-color 1s ease-out;
     transition: color 1s ease-out;
     outline: none;
+}
+
+.contact-form form .alert{
+    color: #dd4732;
+    font-weight: bold;
 }
 
 .contact-wrapper h2{
