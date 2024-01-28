@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    min-width: 0;
+    font:inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img,
+svg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100dvh;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+.navbar, .footer, .header{
+    background-color: #f2b5a8;
+}
+.contact-wrapper {
+    background-color: #f4a08a;
+    
+    
+}
+.call-action{
+    background-color: #3882f6;
+} 
+
+/* *Navbar */
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.navbar .logo{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    gap:20px;
+    align-items: center;
+
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20;
+}
+.nav{
+    display: flex;
+    gap: 35px;
+    
+}
+.nav a{
+    font-size: 18px;
+    color: #dd4732;
+}
+
+
+
+/* *Header */
+
+.header .container{
+    display: flex;
+    padding-bottom: 80px;
+    /* gap: 30px; */
+}
+
+.header h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header p{
+    font-size: 18px;
+    color: #dd4732;
+}
+.push-button-3d {
+    box-shadow: 0 4px #fff;
+    color: #fff;
+    background-color: #ec3078;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all .2s ease;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.push-button-3d:active {
+    box-shadow: 0 1px #dfe5c8;
+    transform: translateY(3px);
+}
+.header img{
+    padding: 20px;
+    border-radius: 50px;
+}
+
+/* *Boxes */
+
+.boxes .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+
+}
+.boxes h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#f3ab9a;
+}
+
+
+/* *CONTACT */
+
+.contact-wrapper .container > *{
+    padding: 1em;
+}
+
+.contact-wrapper .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #f2b5a8;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    padding: 20px;
+
+}
+
+.contact-wrapper .contact-form{
+    
+    text-align: center;
+}
+.contact-wrapper .contact-info{
+    flex: 1;
+    background-color: #fff;
+    margin: 20px;
+    
+}
+
+
+.contact-wrapper form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button{
+    background: #dd4732;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    
+}
+
+.contact-wrapper h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#fff;
+}
+
+.contact-wrapper h3{
+    color:#1f2937;
+    font-weight: bold;
+}
+
+/* *Action */
+
+.call-action{
+    max-width: 70%;
+    height: 120px;
+    margin: 60px auto;
+    border-radius: 10px;
+}
+.call-action .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.call-action h3{
+    color: #fff;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+.call-action p{
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+.call-action button{
+    color: #fff;
+    width: 100px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #3882f6;
+
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: white;
+}
+
